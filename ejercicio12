@@ -1,0 +1,17 @@
+Proceso ejercicio12
+	// Definimos las variables
+	Definir nombre_persona Como Caracter;
+	Definir valor_hora_trabajada, pago_del_trabajador Como Real;
+	Definir numero_horas_trabajo como Entero;
+	// Pedimos datos al trabajador
+	Escribir "ingresa el nombre del trabajador";
+	Leer nombre_persona;
+	Escribir "¿Cual es el valor de la hora trabajada?";
+	Leer valor_hora_trabajada;
+	Escribir "Numero de horas que trabaja";
+	Leer numero_horas_trabajo;
+	// Proceso
+	pago_del_trabajador <- valor_hora_trabajada * numero_horas_trabajo;
+	// Imprimimos en consola
+	Escribir "El pago del trabajador", nombre_persona,  "es:" , pago_del_trabajador;
+FinProceso
