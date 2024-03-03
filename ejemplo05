@@ -1,13 +1,14 @@
 Proceso ejemplo05
-	// Definimos las variables
-	Definir num1, num2, resultado Como Entero;
-	// Pedimos valores por consola
-	Escribir "Ingresa el primer numero";
+	// Primero definimos variables
+	Definir num1, num2, resultado como Real;
+	// Luego pedimos los numeros al usuario
+	Escribir "Digite el valor del numero";
 	Leer num1;
-	escribir "Ingresa el segundo numero";
+	Escribir "Digite el valor del segundo numero ";
 	Leer num2;
 	// Hacemos la operacion
-	resultado <- (num1 + num2) * 2;
-	// Imprimimos en consola
-	Escribir "El doble de su suma fue: ", resultado;
+	resultado <- num1 + num2;
+	// Imprimimos el resultado
+	Escribir "El resultado de sumar ", num1 , "+" , num2 , " es: " , resultado;
 FinProceso
+
