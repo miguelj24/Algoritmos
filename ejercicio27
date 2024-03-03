@@ -1,0 +1,15 @@
+Algoritmo ejercicio27
+	// Definir Variables
+	Definir num1 Como Real;
+	// Pedir numero por consola
+	Escribir "Ingresa el numero";
+	Leer num1;
+	// ENTRADA - SALIDA
+	Si (num1 mod 2 = 1 )Entonces
+		Escribir "El numero ingresado es impar";
+	SiNo
+		Si (num1 mod 2 = 0)Entonces
+			Escribir "El numero es par";
+		FinSi
+	FinSi
+FinAlgoritmo
