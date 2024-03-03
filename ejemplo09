@@ -1,0 +1,13 @@
+Proceso ejemplo09
+	// Ejemplo 09 - Condicional simple 2
+	// DEFINICION/DECLARACION VARIABLES
+	Definir estrato como Entero;
+	// ENTRADA
+	Escribir "Digite su estrato";
+	Leer estrato;
+	// PROCESO - SALIDA
+	Escribir "Bienvenido al SENA Regional Caldas";
+	si (estrato < 3 ) Entonces
+		Escribir "Puede aplicar para Apoyos de Sostenimiento";
+	FinSi
+FinProceso
