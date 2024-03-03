@@ -1,0 +1,12 @@
+Proceso ejercicio5
+	// Definimos las variables
+	Definir nombre_persona, comida_favorita, cantidad_dinero como Caracter;
+	// Les asignamos un valor o u nombre
+	nombre_persona <- "Miguel";
+	comida_favorita <- "Frijoles";
+	cantidad_dinero <- "1 millon 500 mil";
+	// Imprimimos en consola
+	Escribir "Su nombre es: ", nombre_persona;
+	Escribir "Su comida favorita es: ", comida_favorita;
+	Escribir "El dinero que posee es: ", cantidad_dinero;
+FinProceso
