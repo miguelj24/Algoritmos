@@ -1,0 +1,11 @@
+Proceso ejercicio20
+	// Definir variables
+	Definir num1, num2 como Real;
+	// Pedir numeros por consola
+	Escribir "Ingresa los dos numeros: ";
+	Leer num1, num2;
+	// ENTRADA - SALIDA
+	Si (num1 > num2)Entonces
+		Escribir " El ", num1, " es mayor que ", num2;
+	FinSi
+FinProceso
