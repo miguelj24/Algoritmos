@@ -1,0 +1,13 @@
+Proceso ejercicio15
+	// Definimos variables
+	Definir lado_cuadrado, area, perimetro Como Real;
+	// Pedimos el valor por consola
+	Escribir "Ingresa el lado del cuadrado";
+	Leer lado_cuadrado;
+	// Proceso
+	area <- lado_cuadrado * lado_cuadrado;
+	perimetro <- lado_cuadrado * 4;
+	// Imprimimos en consola
+	Escribir "El area del cuadrado es: ", area;
+	Escribir "El perimetro del cuadrado es: ", perimetro;
+FinProceso
