@@ -1,0 +1,11 @@
+Proceso ejercicio14
+	// Definimos las variables
+	Definir radio_circunferencia, longitud_circunferencia Como Real;
+	// Ingresamos el valor
+	Escribir "Ingresa el radio de la circunferencia";
+	Leer radio_circunferencia;
+	// Proceso
+	longitud_circunferencia <- 2 * PI * radio_circunferencia;
+	// Imprimimos en consola
+	Escribir "La longitud de la circunferencia es: ", longitud_circunferencia;
+FinProceso
