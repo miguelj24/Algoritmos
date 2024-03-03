@@ -1,0 +1,13 @@
+Proceso ejercicio3
+	// definimos Variables
+	Definir nombre_estudiante como Caracter;
+	Definir cantidad_perdidas, cantidad_ganadas como Entero;
+	// Asignamos valores a las variables
+	cantidad_perdidas <- 1;
+	cantidad_ganadas <- 2;
+	// Pedimos nombre del estudiante
+	Escribir "Ingresa el nombre del estudiante";
+	Leer nombre_estudiante;
+	// Por ultimo ponemos todos los datos en consola
+	Escribir "El estudiante ", nombre_estudiante, " tiene ", cantidad_perdidas, " materia perdida y ", cantidad_ganadas, " materias ganadas";
+FinProceso
