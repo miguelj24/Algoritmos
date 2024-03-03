@@ -1,0 +1,13 @@
+Proceso Ejercicio4
+	// Definimos las variables
+	Definir A, B, resultado Como Entero;
+	// Pedimos valores por consola
+	Escribir "Ingresa el primer numero: ";
+	Leer A;
+	Escribir "Ingresa el segundo numero: ";
+	Leer B;
+	// Hacemos operacion
+	resultado <- (A+B) * 2 + 10;
+	// Imprimimos en consola
+	Escribir "El resultado es: ", resultado;
+FinProceso
