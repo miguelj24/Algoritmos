@@ -1,0 +1,13 @@
+Proceso ejemplo04
+	// DECLARACION/ DEFINICION DE VARIABLES
+	Definir X, A como Real;
+	// Hacemos que el usuario ingrese un valor por consola
+	Escribir "Digite el valor del numero";
+	Leer A;
+	
+	// Proceso de operaciones o formulas
+	X <- 2 * A + A * 5;
+	
+	// SALIDA DATOS
+	Escribir "El resultado de la operacion: ", X;
+FinProceso
