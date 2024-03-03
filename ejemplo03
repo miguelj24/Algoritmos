@@ -1,0 +1,23 @@
+Proceso ejemplo03
+	// En una carcel se requiere un
+	// algoritmo que permita identificar
+	//cuantas personas privadas de la libertad tiene la carcel, el
+	// promedio de años de condena de las PPL, el nombre de la carcel y la 
+	// direccion de la carcel. Mostrar
+	// todos los datos
+	// Definimos variables
+	Definir numPresos Como Entero;
+	Definir promdeAnos Como Real;
+	Definir nombreCarcel Como Cadena;
+	Definir direccionCarcel Como Cadena;
+	// Les asignamos un valor o nombre
+	numPresos <- 350;
+	promdeAnos <- 6;
+	nombreCarcel <- "La blanca";
+	direccionCarcel <- "Carrera 46 A B numero correccional 15-28 ";
+	// Por ultimo se imprime en consola
+	Escribir "El numero de presos en la carcel es: ", numPresos;
+	Escribir "Los presos tienen un promedio de ", promdeAnos, " años";
+	Escribir "El nuombre de la carcel es: ", numPresos;
+	Escribir "La direccion de la carcel es: ", direccionCarcel;
+FinProceso
