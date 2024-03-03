@@ -1,0 +1,14 @@
+Proceso ejercicio10
+	// Definimos vlas variables
+	Definir alto, ancho, resultado_area, resultado_perimetro como Real;
+	// Ingresamos los valores por consola
+	Escribir "Ingresa el alto del rectangulo";
+	Leer alto;
+	Escribir "Ingresa el ancho del rectangulo";
+	Leer ancho;
+	// Hacemos la operacion
+	resultado_area <- alto * ancho;
+	resultado_perimetro <- (alto + ancho) * 2; 
+	// Imprimimos el resultado
+	Escribir "El area del rectangulo es ", resultado_area, " y el perimetro del rectangulo es ", resultado_perimetro;
+FinProceso
