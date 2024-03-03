@@ -1,0 +1,13 @@
+Proceso ejercicio2
+	// Definimos las variables
+	Definir num1, num2, resultado Como Entero;
+	// Pedimos valores por consola
+	Escribir "Ingresa el primer numero";
+	Leer num1;
+	escribir "Ingresa el segundo numero";
+	Leer num2;
+	// Hacemos la operacion
+	resultado <- (num1 + num2) * 2;
+	// Imprimimos en consola
+	Escribir "El doble de su suma fue: ", resultado;
+FinProceso
