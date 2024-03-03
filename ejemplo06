@@ -1,0 +1,23 @@
+Proceso ejemplo06
+	// Primeros definimos las variables
+	Definir nombre_paciente, tipo_sangre, genero como Caracter;
+	Definir edad Como Entero;
+	Definir estatura como Real;
+	// Pedimos nombre
+	Escribir "Ingresa tu nombre: ";
+	Leer nombre_paciente;
+	// Pedimos edad
+	Escribir "Ingresa tu edad: ";
+	Leer edad;
+	// Pedimos tipo de sangre
+	Escribir "Ingresa tu tipo de sangre: ";
+	Leer tipo_sangre;
+	// Pedimos estatura
+	Escribir "Ingresa tu estatura: ";
+	Leer estatura;
+	// Pedimos genero
+	Escribir "Ingresa tu genero: ";
+	Leer genero;
+	// Iprimimos en consola todos los datos asignados
+	Escribir "Tu nombre es ", nombre_paciente , ", tu edad es ", edad , ", tu tipo de sangre es ", tipo_sangre , ", tu estatura es ", estatura , " y tu genero es ", genero;
+FinProceso
