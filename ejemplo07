@@ -1,0 +1,34 @@
+Proceso ejemplo07
+	// Definimos variables
+	Definir nombre_aprendiz, tipo_documento, direccion_residencia, genero Como Caracter;
+	Definir documento, estrato Como Entero;
+	Definir peso como Real;
+	Definir Estudio como Logico;
+	// Pedimos nombre
+	Escribir "Ingresa tu nombre";
+	Leer nombre_aprendiz;
+	// Pedimos documento
+	Escribir "Ingresa tu documento";
+	Leer documento;
+	// Pedimos tipo de documento
+	Escribir "¿Que tipo de documento es?";
+	Leer tipo_documento;
+	// Pedimos direccion de residencia
+	Escribir "¿Cual es tu direccion de residencia?";
+	Leer direccion_residencia;
+	// Pedimos genero
+	Escribir "¿Que genero eres?";
+	Leer genero;
+	// Pedimos el peso
+	Escribir "¿Cuantos kilogramos pesas?";
+	Leer peso;
+	// Pedimos el estrato
+	Escribir "¿Que estrato eres?";
+	Leer estrato;
+	// Preguntamos si el estudiante ha estudiado en el sena
+	Escribir "¿El aprendiz ha estudiado en el sena? " ;
+	Leer Estudio;
+	// E imprimimos todos los datos por consola
+	Escribir "Su nombre es ", nombre_aprendiz , " , Su documento es ", documento, " , Su tipo de documento es ", tipo_documento;
+	Escribir "Su direccion de residencia es ", direccion_residencia, ", Su genero es ", genero, ", Su peso es ", peso, ", Su estrato es ", estrato, " y Ha estudiado en el SENA: " , Estudio;
+FinProceso
