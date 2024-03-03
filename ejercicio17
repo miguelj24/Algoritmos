@@ -1,0 +1,13 @@
+Proceso ejercicio17
+	// 17) Pedir dos numeros y decir si son iguales o no
+	// DECLARACION/DEFINICION
+	Definir num1, num2 como Real;
+	// ENTRADA
+	Escribir "Digite el numero 1 y el numero 2";
+	Leer num1,num2;
+	si (num1 = num2)Entonces
+		Escribir "Los numeros son iguales";
+	SiNo
+		Escribir "Los numeros son diferentes";
+	FinSi
+FinProceso
