@@ -1,0 +1,13 @@
+Proceso ejercicio11
+	// definimos variables
+	Definir A, B, diferencia Como Entero;
+	// Pedimos valores al usuario
+	Escribir "Ingresa el primer numero";
+	Leer A;
+	Escribir "Ingresa el segundo numero";
+	Leer B;
+	// Hacemos la operacion
+	diferencia <- A - B;
+	// Imprimimos en consola
+	Escribir "La diferencia entre ambos numeros es: ", diferencia;
+FinProceso
