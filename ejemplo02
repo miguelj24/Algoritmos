@@ -1,0 +1,21 @@
+Proceso ejemplo02
+	// 1) Se requiere un algoritmo para una 
+	// veterinaria, que permita tener una
+	// variable para el tipo de mascota, nombre
+	// de la mascota, peso y tratamiento
+	// determinado por el veterinario. Asignar
+	// las diferentes variables y mostrar todos los pasos
+	// Definimos las variables
+	Definir tipoMascota, nombreMascota, tratamientoMascota como Cadena;
+	Definir pesoMascota Como Real;
+	// Luego les asignamos un nombre o valor
+	tipoMascota <- "Perro";
+	nombreMascota <- "Zeus";
+	tratamientoMascota <- "Fisioterapia";
+	pesoMascota <- 22.3;
+	// Luego imprimimos en consola
+	Escribir "El tipo de mascota es: ", tipoMascota;
+	Escribir "El nombre de la mascota es: ", nombreMascota;
+	Escribir "El tratamiento de la mascota es: ", tratamientoMascota;
+	Escribir "El peso de la mascota es: ", pesoMascota, "Kg";
+FinProceso
