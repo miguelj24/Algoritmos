@@ -1,0 +1,26 @@
+Proceso ejemplo01
+	// Ejemplo 01
+	// Realizar un algoritmo que permita guardar :
+	// el nombre de programa de formacion, el codigo
+	// de la ficha, cantidad aprendices, promedio
+	// de notas ganadas, y saber si la ficha esta activa
+	// en el sistema
+	// Primero se definen las variables
+	Definir nombredePrograma Como Cadena;
+	Definir codigodelaFicha Como Cadena; 
+	Definir cantidadAprendices como Entero;
+	Definir promediodenotasGanadas como Real;
+	Definir fichaActiva Como Logico;
+	// Luego les asignamos un valor o nombre
+	nombredePrograma <- "ADSO analisis y desarrollo software";
+	codigodelaFicha <- "2873711";
+	cantidadAprendices <- 27;
+	promediodenotasGanadas <- 4.1;
+	fichaActiva <- verdadero;
+	// Por ultimo, hacemos que imprima en la consola
+	Escribir "El programa de formacion al que usted asiste es ", nombredePrograma;
+	Escribir "el codigo es ", codigodelaFicha;
+	Escribir "Los aprendices totales son ", cantidadAprendices;
+	Escribir "y su promedio de notas ganadas es ", promediodenotasGanadas;
+	Escribir "¿La ficha en el sistema está activa? ", fichaActiva;
+FinProceso
