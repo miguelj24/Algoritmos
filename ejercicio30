@@ -1,0 +1,16 @@
+Algoritmo ejercicio30
+	// Declaracion de variables
+	Definir numerador, denominador, division como Real;
+	// Pedir datos por consola
+    Escribir "Ingrese el numerador:";
+    Leer numerador;
+    Escribir "Ingrese el denominador (distinto de cero):";
+    Leer denominador;
+	// ENTRADA - PROCESO - SALIDA
+    Mientras denominador = 0
+        Escribir "El denominador no puede ser cero. Ingrese un valor válido:";
+        Leer denominador;
+    FinMientras
+    division = numerador / denominador;
+    Escribir "El resultado de la división es:", division;
+FinAlgoritmo
