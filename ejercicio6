@@ -1,0 +1,20 @@
+Proceso ejercicio6
+	// SE DEFINEN VARIABLES
+	Definir nombre_articulo Como Caracter;
+	Definir cantidad_comprar Como Entero;
+	Definir valor_unitario, total_pagar Como Real;
+	
+	//PEDIR AL USUARIO LOS DATOS
+	Escribir "¿Cual es el nombre del articulo? ";
+	Leer nombre_articulo;
+	Escribir "¿Cual es el valor del articulo? ";
+	Leer valor_unitario;
+	Escribir "¿Cuanto es la cantidad que desea comprar? ";
+	Leer cantidad_comprar;
+	// En consola imprimimos el articulo
+	Escribir "El nombre del articulo es: ", nombre_articulo;
+	// Hacemos operacion
+	total_pagar <- valor_unitario * cantidad_comprar;
+	// Imprimimos el total en consola
+	Escribir "El total a pagar es : ", total_pagar;
+FinProceso
