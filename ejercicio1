@@ -1,0 +1,13 @@
+Proceso ejercicio1
+	// Definimos variables
+	Definir nombre_persona Como Caracter;
+	Definir numero_horas como Real;
+	// Pedimos nombre por consola al usuario
+	Escribir "Ingresa tu nombre: ";
+	Leer nombre_persona;
+	// Pedimos horas totales a la semana al usuario
+	Escribir "Ingresa el total de horas que estudia en la semana : ";
+	Leer numero_horas;
+	// Por ultimo imprimimos en consola
+	Escribir "Su nombre es: ", nombre_persona, " y estudia a la semana ", numero_horas, " horas";
+FinProceso
