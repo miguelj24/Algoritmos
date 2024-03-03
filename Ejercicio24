@@ -1,0 +1,25 @@
+Algoritmo ejercicio24
+	// Definimos variables
+	Definir num1, cifras como Entero;
+	// Pedimos numero por consola
+	Escribir "Ingrese un n�mero entre 0 y 9.999: ";
+	Leer num1;	
+	// EENTRADA - SALIDA
+	Si num1 >= 0 y num1 <= 9 Entonces
+		cifras <- 1;
+	FinSi
+	
+	Si num1 >= 10 y num1 <= 99 Entonces
+		cifras <- 2;
+	FinSi
+	
+	Si num1 >= 100 y num1 <= 999 Entonces
+		cifras <- 3;
+	FinSi
+	
+	Si num1 >= 1000 y num1 <= 9999 Entonces
+		cifras <- 4;
+	FinSi
+	
+	Escribir "El n�mero ", num1, " tiene ", cifras, " cifras.";
+FinAlgoritmo
