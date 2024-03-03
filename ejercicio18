@@ -1,0 +1,13 @@
+Proceso ejercicio18
+	// Definimos las variables
+	Definir num1 como Real;
+	// Pedir numer0
+	Escribir "Ingresa el numero";
+	Leer num1;
+	// Proceso - Salida
+	Si (num1 > 0 )Entonces
+		Escribir "El numero es positivo";
+	siNo 
+		Escribir "El numero es negativo";
+	FinSi
+FinProceso
