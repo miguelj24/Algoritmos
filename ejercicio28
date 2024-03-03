@@ -1,0 +1,20 @@
+Algoritmo ejercicio28
+	// Definicion de variables
+	Definir hora_trabajo, valor_hora como Real;
+	// Pedir datos por consola
+	Escribir "Ingresa las horas de trabajo";
+	Leer hora_trabajo;
+	Escribir "Ingresa el valor de la hora trabajada";
+	Leer valor_hora;
+	// ENTRADA - SALIDA
+	Si (hora_trabajo > 40)Entonces
+		valor_hora <- hora_trabajo * valor_hora;
+		valor_hora <- valor_hora + 10000;
+		Escribir "El salario del trabajador es: ", valor_hora;
+	SiNo
+		Si (hora_trabajo < 40)Entonces
+			valor_hora <- hora_trabajo * valor_hora;
+			Escribir "El salario del trabajador es: ", valor_hora;
+		FinSi
+	FinSi
+FinAlgoritmo
