@@ -1,0 +1,13 @@
+Proceso ejercicio16
+	// Definimos variables
+	Definir area_rectangulo, largo, ancho Como Real;
+	// Pedimos valores por consola
+	Escribir "Ingresa el largo del rectangulo";
+	Leer largo;
+	Escribir "Ingresa el ancho del rectangulo";
+	Leer ancho;
+	// Proceso
+	area_rectangulo <- largo * ancho;
+	// Imprimmos en consola
+	Escribir "El area del rectangulo es: ", area_rectangulo;
+FinProceso
