@@ -1,0 +1,17 @@
+Algoritmo ejercicio29
+	// Definicion de variables
+    Definir monto, descuento, monto_con_descuento como Real;
+	// Pedir datos por consola
+    Escribir "Ingrese el monto:";
+    Leer monto;
+	// ENTRADA - SALIDA
+    Si monto > 100 Entonces
+        descuento = monto * 0.1;
+    Sino
+        Si (monto < 100)
+			descuento = monto * 0.02;
+		FinSi
+    FinSi
+    monto_con_descuento = monto - descuento;
+    Escribir "El monto con descuento es:", monto_con_descuento;
+FinAlgoritmo
